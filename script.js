@@ -32,7 +32,6 @@ function init()
 
     var resetButton = document.createElement("button");
     resetButton.textContent = "Reset";
-    //make button below the circles
     resetButton.style.padding = "50px 100px";
     resetButton.style.position = "absolute";
     resetButton.style.bottom = "0px";
@@ -49,9 +48,7 @@ function init()
     document.body.appendChild(resetButton);
 
     var addButton = document.createElement("button");
-    addButton.textContent = "Add";
-    //make button directly below the circles
-    
+    addButton.textContent = "Add";    
     addButton.style.padding = "50px 100px";
     addButton.style.position = "absolute";
     addButton.style.bottom = "0px";
